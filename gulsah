@@ -1,1 +1,158 @@
 my name is gulsah
+
+Gulsah
+
+Windows: PowerShell  
+
+Mac: Terminal
+
+Linux Commands:
+
+ls: it will show all the files from current file
+pwd: it will return the current location (path)
+cd: this command will move you to the target file | cd <fileName>
+cd .. :this command will take you back to previous folder. 
+
+
+Git vs Github | BitBucket 
+
+
+How to generate new Token ? 
+
+Settings -->  Developer Setteings --> Personal Tokens -> Generate New Token (classic) 
+
+*Git vs Github | BitBucket 
+* Repo.: Big Folder (github folder) that contains your code files.
+
+How to create Repo.:
+
+
+* Origin | Remote / Local 
+
+    Origin or Remote: Location of the github (cloud)
+
+    Local: Personal Computer 
+
+
+GOLDEN RULES:
+
+    ** YOU CANNOT MAKE A CHANGES ON MAIN BRANCH ** 
+
+* git commands
+
+    git clone <githubURL> : it will download the repo. to your local
+
+    git branch: This will show the local branches and it will indicate the current branch with * 
+
+    git checkout -b <branchName> : This command for creating new branch and switching in it
+
+    git status: This will show the status of the git history, if any file change or added it will show with red 
+
+    git add . : This will stash all files for ready to commit 
+
+    git add <fileName> : This will stash the specific file for ready to commit 
+
+    git commit -m "message": This is just a description of the changes
+
+    git push --set-upstream origin <branchName>: This is the command for the first time you are pushing the sub-branch and it will create the sub branch on origin / remote
+
+    git push: after first time push you can use this command in same branch for sending the changes 
+    
+    
+    Git commands:
+
+git clone <httpsUrl>: This will get the repo. from Origin and download to your local
+
+=====
+
+1. git checkout -b <branchName> : This command creates a sub-branch / child branch from main and then will switch to the sub branch 
+
+    ** You create a sub branch from local main all the time **
+
+2. git checkout <branchName> : This command switch between branches.
+
+    * main
+      branch1
+
+      git checkout branch1
+
+      main
+    * branch1
+
+3. git add . : This will add the all changes or new files ready to commit
+
+   git add <fileName> : This will add the specific <fileName> for ready to commit
+
+4. git commit -m "message": 
+
+    * this command is for adding message about the changes you have made.
+
+    * this will create commit history code that you can use it for reset it if needed.
+
+5. git push --set-upstream origin <branchName> : This is the command you have to use for the firs time when you push your sub-branch.
+
+   git push: this is the command you have to use after first push.
+
+======
+
+
+6. git status: It will show the current changes / status 
+
+7. git branch: this will show the all local branch
+
+   git branch -a : this will show the all local and origin branches
+   
+   
+   Git commands:
+
+git clone <httpsUrl>: This will get the repo. from Origin and download to your local
+
+=====
+
+1. git checkout -b <branchName> : This command creates a sub-branch / child branch from main and then will switch to the sub branch 
+
+    ** You create a sub branch from local main all the time **
+
+2. git checkout <branchName> : This command switch between branches.
+
+    * main
+      branch1
+
+      git checkout branch1
+
+      main
+    * branch1
+
+3. git add . : This will add the all changes or new files ready to commit
+
+   git add <fileName> : This will add the specific <fileName> for ready to commit
+
+4. git commit -m "message": 
+
+    * this command is for adding message about the changes you have made.
+
+    * this will create commit history code that you can use it for reset it if needed.
+
+5. git push --set-upstream origin <branchName> : This is the command you have to use for the firs time when you push your sub-branch.
+
+   git push: this is the command you have to use after first push.
+6. git pull: this will take the all differences from origin branch to your local branch 
+======
+
+
+7. git status: It will show the current changes / status 
+
+8. git branch: this will show the all local branch
+
+   git branch -a : this will show the all local and origin branches
+   
+   
+   
+   
+   12/5/22 Review of Git
+   
+   
+   
+   
+   
+
